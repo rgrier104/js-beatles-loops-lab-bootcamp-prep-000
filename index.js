@@ -1,7 +1,7 @@
 // add solution here
 function theBeatlesPlay(musicians,instruments) {
-  var empty = []
+  var array = []
   for (let i = 0; i < musicians.length; i++) {
-    empty.push((`musician[i] plays instruments[i]`))
-  } return empty
+    empty.push((musician[i] + ` plays ` instruments[i]))
+  } return array
 }
