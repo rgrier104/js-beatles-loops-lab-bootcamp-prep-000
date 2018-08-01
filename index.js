@@ -10,5 +10,5 @@ function johnLennonFacts(facts) {
   var i = 0
   while(facts[i]) {
     facts[i] = facts[i] + `!!!`
-  }
+  } return facts
 }
